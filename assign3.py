@@ -1,0 +1,47 @@
+#integer_operations
+a=int(input("enter 1st integer no.="))
+b=int(input("enter 2nd integer no.="))
+print("addition of two integer=",a+b)
+print("subtraction of two integer=",a-b)
+print("multiplication of two integer=",a*b)
+print("%d to the power %d="%(a,b),pow(a,b))
+print("remainder of two integer no.=",a%b)
+print("%d/%d="%(a,b),a/b)
+print("%d//%d="%(a,b),a//b)
+print(30*"*")
+#float_operations
+a=float(input("enter 1st float no.="))
+b=float(input("enter 2nd float no.="))
+print("sum of two float no.s=",a+b)
+print("substraction of two float no.s=",a-b)
+print("multiplication of two float no.s=",a*b)
+print("%f to the power %f="%(a,b),pow(a,b))
+print("their remainder=",a%b)
+print("%f/%f"%(a,b),a/b)
+print("%f//%f"%(a,b),a//b)
+print(30*"*")
+#complex_operaions
+a=complex(input("enter 1st complex no."))
+b=int(input("enter an integer no."))
+c=float(input("enter a float no."))
+print("multiplication of complex no. with an integer no.=",a*b)
+print("multiplication of complex no. with float no.=",a*b)
+print("multiplication of complex no. with complex no.=",a*a)
+print(20*"*")
+#string_operations
+s1=str(input("enter string1"))
+s2=str(input("enter string2"))
+print("addition of two strings(concatination)=",s1+s2)
+print("slicing string(s2)",s2[6:10])
+print("checking the length of string(s1)",len(s1+s2))
+print("now string is in uppercase",s1.upper())
+print("now string is in lowercase",s2.lower())
+print(20*"*")
+#the_last _one :)
+i=int(input("enter any integer="))
+print("conversion of an integer no. into a string",str(i))
+print(20*"*")
+
+
+ 
+ 
